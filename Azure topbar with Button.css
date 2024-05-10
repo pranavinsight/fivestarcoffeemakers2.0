@@ -1,0 +1,181 @@
+nav{
+    background-color: brown;
+    padding-bottom: 1em;
+    display:flex;
+}
+.altnav{
+  background-color: #000;
+}
+.altnav ul li a p{
+  font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+   min-height: 70px;
+    height: 70px;
+    z-index: 9;
+  
+  }
+  
+   li {
+    float: left;
+    padding: 5px;
+    }
+  
+   li a {
+    display: block;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:1rem;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+  }
+  .active {
+    background: white;
+    width: 10%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 1.5em; 
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    display: none;
+    pointer-events: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+ 
+  
+
+ 
+
+.navlinks li:hover a {
+    color: brown;
+    
+}
+.navlinks li:hover a img{
+filter: brightness(0) invert(0);
+}
+
+.navlinks, li:hover ~ .active { 
+    display: flex;
+    pointer-events: auto;
+}
+.navlinks li:nth-child(1):hover ~ .active {
+    left: 5em;
+}
+
+.navlinks li:nth-child(2):hover ~ .active {
+    left: 10.7em;
+
+}
+
+.navlinks li:nth-child(3):hover ~ .active {
+    left: 16.7rem;
+}
+
+.navlinks li:nth-child(4):hover ~ .active {
+    left: 23.2rem;
+}
+
+.altactive {
+  background: white;
+  width: 5%;
+  height: 47px;
+  position: absolute;
+  left: 0;
+  top: 1.5em; 
+  z-index: -1;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgb(255, 255, 255);
+  display: none;
+  pointer-events: none;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+
+.navlinks, li:hover ~ .altactive { 
+  display: flex;
+  pointer-events: auto;
+}
+.navlinks li:nth-child(1):hover ~ .altactive {
+  left: 2rem;
+  padding-left: 3em;
+}
+
+.navlinks li:nth-child(2):hover ~ .altactive {
+  left: 7em;
+  padding-left: 10em;
+
+}
+
+/* CSS */
+.button-59 {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-59:focus {
+    color: #171e29;
+  }
+  
+  .button-59:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  .button-59 a:hover{
+    color: #06f;
+  }
+  
+  .button-59:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  @media (min-width: 768px) {
+    .button-59 {
+      min-width: 170px;
+    }
+  }
+  .container{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px
+}
+.container h1 h3{
+    text-decoration: none;
+    color: black;
+}
