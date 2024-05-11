@@ -39,7 +39,7 @@ ul {
   }
   .active {
     background: white;
-    width: 3%;
+    width: 10%;
     height: 47px;
     position: absolute;
     left: 0;
